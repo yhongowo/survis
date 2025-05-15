@@ -1,4 +1,19 @@
 ﻿const generatedBibEntries = {
+    "Beck2016Visual": {
+        "abstract": "We present AIST++, a new multi-modal dataset of 3D dance motion and music, along with FACT, a Full-Attention Cross-modal Transformer network for generating 3D dance motion conditioned on music. The proposed AIST++ dataset contains 5.2 hours of 3D dance motion in 1408 sequences, covering 10 dance genres with multi-view videos with known camera poses\u2014the largest dataset of this kind to our knowledge. We show that naively applying sequence models such as transformers to this dataset for the task of music conditioned 3D motion generation does not produce satisfactory 3D motion that is well correlated with the input music. We overcome these shortcomings by introducing key changes in its architecture design and supervision: FACT model involves a deep cross-modal transformer block with full-attention that is trained to predict N future motions. We empirically show that these changes are key factors in generating long sequences of realistic dance motion that are well-attuned to the input music. We conduct extensive experiments on AIST++ with user studies, where our method outperforms recent state-of-the-art methods both qualitatively and quantitatively.",
+        "author": "Ruilong Li and Shan Yang and David A. Ross and Angjoo Kanazawa",
+        "doi": "10.1109/ICCV48922.2021.01315",
+        "journal": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+        "keywords": "3D dance generation, cross-modal transformer, AIST++ dataset",
+        "number": "01",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "AI Choreographer:  Music Conditioned 3D Dance Generation with AIST plus plus",
+        "type": "article",
+        "url": "https://arxiv.org/abs/2101.08779",
+        "volume": "22",
+        "year": "2021"
+    },
     "Chen2025XDancer": {
         "abstract": "We propose X-Dancer, a novel framework for generating expressive human dance videos conditioned on music. Our method captures the nuances of musical expression and translates them into realistic and synchronized dance movements, enhancing the creative process of dance video production.",
         "author": "Zeyuan Chen and Hongyi Xu and Guoxian Song and You Xie and Chenxu Zhang and Xin Chen and Chao Wang and Di Chang and Linjie Luo",
@@ -58,21 +73,6 @@
         "url": "https://arxiv.org/abs/2201.03809",
         "volume": "2022",
         "year": "2022"
-    },
-    "Li2021AIChoreographer": {
-        "abstract": "We present AIST++, a new multi-modal dataset of 3D dance motion and music, along with FACT, a Full-Attention Cross-modal Transformer network for generating 3D dance motion conditioned on music. The proposed AIST++ dataset contains 5.2 hours of 3D dance motion in 1408 sequences, covering 10 dance genres with multi-view videos with known camera poses\u2014the largest dataset of this kind to our knowledge. We show that naively applying sequence models such as transformers to this dataset for the task of music conditioned 3D motion generation does not produce satisfactory 3D motion that is well correlated with the input music. We overcome these shortcomings by introducing key changes in its architecture design and supervision: FACT model involves a deep cross-modal transformer block with full-attention that is trained to predict N future motions. We empirically show that these changes are key factors in generating long sequences of realistic dance motion that are well-attuned to the input music. We conduct extensive experiments on AIST++ with user studies, where our method outperforms recent state-of-the-art methods both qualitatively and quantitatively.",
-        "author": "Ruilong Li and Shan Yang and David A. Ross and Angjoo Kanazawa",
-        "doi": "10.1109/ICCV48922.2021.01315",
-        "journal": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
-        "keywords": "3D dance generation, cross-modal transformer, AIST++ dataset",
-        "number": "01",
-        "publisher": "IEEE",
-        "series": "",
-        "title": "AI Choreographer: Music Conditioned 3D Dance Generation with AIST++",
-        "type": "article",
-        "url": "https://arxiv.org/abs/2101.08779",
-        "volume": "2021",
-        "year": "2021"
     },
     "Li2021Music2Dance": {
         "abstract": "In this article, we propose a novel autoregressive generative model, DanceNet, to take the style, rhythm, and melody of music as the control signals to generate dance movements. DanceNet is composed of a music encoder and a dance decoder. The music encoder extracts music features, and the dance decoder generates corresponding dance movements. Extensive experiments demonstrate that our model can generate realistic and diverse dance movements that align well with the input music.",
